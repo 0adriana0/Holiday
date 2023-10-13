@@ -1,0 +1,24 @@
+.partners{
+    padding: 61px 0 57px;
+    
+    &__title{
+        // width: 228px;
+        color: #333;
+        text-align: center;
+        font-family: 'Montserrat' sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+
+.partners-list{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item{
+        width: 247px;
+    }
+}

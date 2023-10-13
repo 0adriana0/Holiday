@@ -71,4 +71,67 @@ img {
   flex-direction: column;
   padding-top: 19px;
   gap: 112px;
+}
+
+.hero {
+  padding: 214px 0 136px;
+  background-color: black;
+  background-image: url(./img/heromobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid black;
+}
+.hero__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.hero__paragraph {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  width: 220px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 17px;
+}
+
+.hero-bth {
+  margin: 0 auto;
+  width: 282px;
+  height: 43px;
+  background-color: #FF4E50;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 13px 38px;
+  border-radius: 20px;
+}
+
+.partners {
+  padding: 61px 0 57px;
+}
+.partners__title {
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.partners-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partners-list__item {
+  width: 247px;
 }/*# sourceMappingURL=main.css.map */
